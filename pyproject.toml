@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "frappe-nbfc-co-lending-fldg-engine"
+authors = [{name = "Shyam Kumar Pandey", email = "shyamkumarpandey1104@gmail.com"}]
+description = "Frappe Framework NBFC Co-Lending Engine: RBI CLM Model-2, 80:20 Bank-Fintech Split, 5% FLDG Guarantee Monitoring & Escrow Waterfall."
+version = "1.0.0"
+readme = "README.md"
+classifiers = ["Framework :: Frappe"]

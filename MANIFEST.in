@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nbfc_co_lending *.css
+recursive-include nbfc_co_lending *.csv
+recursive-include nbfc_co_lending *.html
+recursive-include nbfc_co_lending *.ico
+recursive-include nbfc_co_lending *.js
+recursive-include nbfc_co_lending *.json
+recursive-include nbfc_co_lending *.md
+recursive-include nbfc_co_lending *.png
+recursive-include nbfc_co_lending *.py
+recursive-include nbfc_co_lending *.svg
+recursive-include nbfc_co_lending *.txt
+recursive-exclude nbfc_co_lending *.pyc
